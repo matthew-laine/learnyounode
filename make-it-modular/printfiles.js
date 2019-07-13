@@ -5,4 +5,4 @@ const printfiles = (files, extension) => {
 
 }
 
-module.exports(printfiles)
+module.exports=printfiles
