@@ -1,7 +1,7 @@
 const fs = require('fs')
 const path = require('path')
 const ext = '.' + process.argv[3]
-let listOfExtItems = []
+var listOfExtItems = []
 
 fs.readdir(process.argv[2], (err, list) => {
     if (err) throw err
